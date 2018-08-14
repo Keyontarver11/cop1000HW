@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    height:75vh;
+
+   
+}
+
+.header{
+    position:fixed;
+    height:100px;
+    width:100%;
+    border:2px solid black;
+    top:0;
+}
+
+.searchcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:33.3vw;
+    
+    
+}
+
+.displaycontainer{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height:100vh;
+    width:33.3vw;
+    
+    
+}
+
+.toptencontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    width:33.3vw;
+   
+} 
